@@ -1,0 +1,259 @@
+#head1{
+    margin-top: 160px;
+    color:rgb(67, 230, 80);
+    margin-left: 40px;
+    left:50%;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    margin-right: 85%;
+    border-radius: 15px;
+    height: 70px;
+    text-align: center;
+}
+header {
+    opacity: 90%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 1260px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A86FF;
+    padding: 20px;
+    color: white;
+}
+.logo img {
+    height: 100px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+form {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #a0a0a0;
+    border-radius: 8px;
+}
+
+form h3 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.bs{
+    font-size: 14px;
+    margin-right: 20px;
+}
+footer {
+    position: relative;
+    background-color: #3A86FF; 
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width: 1260px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.fsection {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.fsection h1 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.fsection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fsection ul li {
+    margin-bottom: 10px;
+}
+
+.fsection ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.fsection ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-end {
+    margin-top: 30px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+.submit-button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #19792e;
+}
+h4{
+    margin-left: 40px;
+    font-size: 28px;
+}
+@media (max-width: 768px) {
+
+    header {
+        position: relative; 
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    
+    #head1 {
+        font-size: 2em;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 100px;
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+        background-color: #ffffff;
+    }
+
+    
+    form {
+        max-width: 100%;
+        padding: 10px;
+        border: none;
+        margin: 0 10px;
+        box-shadow: none;
+    }
+
+    form h3 {
+        font-size: 1.5em;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    .submit-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    footer {
+        padding: 20px 10px;
+        width: 450px;
+        margin-left: 0;
+    }
+
+    .fcontainer {
+        flex-direction: column;
+    }
+
+    .fsection {
+        margin-bottom: 20px;
+    }
+
+    .footer-end {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
